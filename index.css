@@ -35,6 +35,10 @@ body {
 @media (max-width: 480px) {
   .AA {
     flex-direction: column-reverse;
+    font-size: smaller;
+  }
+  .navbar{
+    font-size: smaller;
   }
 }
 /* Section second */
@@ -55,12 +59,12 @@ body {
   background: linear-gradient(to right, rgb(110, 117, 129), rgb(18, 44, 90));
 }
 
-@media (max-width: 480px) {
+@media (max-width: 672px) {
   .BB {
     flex-direction: column;
     align-items: center;
-    margin-left: 0px;
-    margin-right: 0px;
+    font-size: smaller;
+    background-color: black;
   }
 }
 
@@ -125,9 +129,10 @@ body {
   color: white;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 790px) {
   .HH {
     flex-direction: column;
+    display: grid;
   }
   .KK, .K{
     display: inline-flex;
@@ -146,4 +151,11 @@ body {
   justify-content: space-evenly;
   background-color: rgb(25, 55, 109);
   align-items: center;
+}
+
+
+@media (max-width: 500px) {
+    .MM{
+      display: grid;
+    }
 }
